@@ -29,5 +29,7 @@ namespace WebAPIApp.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<WebAPIApp.Models.Author> Authors { get; set; }
     }
 }
